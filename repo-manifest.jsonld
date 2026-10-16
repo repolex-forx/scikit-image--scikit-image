@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/b700edc8005e4ee9e74fc83259f09e8df3213f15",
       "git:hexsha": "b700edc8005e4ee9e74fc83259f09e8df3213f15",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/scikit-image/scikit-image/commit/aa964efd599cf47c3345a2123b1686959f2ee87c",
