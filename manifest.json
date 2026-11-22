@@ -1750,6 +1750,460 @@
       ],
       "ast": [
         "aggregate/ast/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "1.24",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "scipy",
+          "ecosystem": "PYPI",
+          "version": "1.11.4",
+          "githubOrg": "scipy",
+          "githubRepo": "scipy",
+          "githubCommit": "5e4a5e3785f79dd4e8930eed883da89958860db2",
+          "githubTag": "v1.11.4",
+          "githubUrl": "https://github.com/scipy/scipy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "networkx",
+          "ecosystem": "PYPI",
+          "version": "3.0",
+          "githubOrg": "networkx",
+          "githubRepo": "networkx",
+          "githubCommit": "58994819583fddf3fea813daec520946c550bcd8",
+          "githubTag": "networkx-3.0",
+          "githubUrl": "https://github.com/networkx/networkx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pillow",
+          "ecosystem": "PYPI",
+          "version": "10.1",
+          "githubOrg": "python-pillow",
+          "githubRepo": "Pillow",
+          "githubUrl": "https://github.com/python-pillow/Pillow",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "imageio",
+          "ecosystem": "PYPI",
+          "version": "2.33",
+          "githubOrg": "imageio",
+          "githubRepo": "imageio",
+          "githubUrl": "https://github.com/imageio/imageio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tifffile",
+          "ecosystem": "PYPI",
+          "version": "2022.8.12",
+          "githubOrg": "cgohlke",
+          "githubRepo": "tifffile",
+          "githubCommit": "eb79f64e65fdd17fa5722dac9ce32ec6dd224f5d",
+          "githubTag": "v2022.8.12",
+          "githubUrl": "https://github.com/cgohlke/tifffile",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "21",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "lazy-loader",
+          "ecosystem": "PYPI",
+          "version": "0.4",
+          "githubOrg": "scientific-python",
+          "githubRepo": "lazy-loader",
+          "githubCommit": "4596986a8d276d19e2ad8713ec4fb8329d743a08",
+          "githubTag": "v0.4",
+          "githubUrl": "https://github.com/scientific-python/lazy-loader",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "meson-python",
+          "ecosystem": "PYPI",
+          "version": "0.16",
+          "githubOrg": "mesonbuild",
+          "githubRepo": "meson-python",
+          "githubUrl": "https://github.com/mesonbuild/meson-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ninja",
+          "ecosystem": "PYPI",
+          "version": "1.11.1.1",
+          "githubOrg": "scikit-build",
+          "githubRepo": "ninja-python-distributions",
+          "githubCommit": "d07caf4d9a980431bd93082e868ea1a7693904d5",
+          "githubTag": "1.11.1.1",
+          "githubUrl": "https://github.com/scikit-build/ninja-python-distributions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cython",
+          "ecosystem": "PYPI",
+          "version": "3.0.8",
+          "githubOrg": "cython",
+          "githubRepo": "cython",
+          "githubCommit": "a1b79a6bc5326406ad73af73f5b41e3bb5f8da6e",
+          "githubTag": "3.0.8",
+          "githubUrl": "https://github.com/cython/cython",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pythran",
+          "ecosystem": "PYPI",
+          "version": "0.16",
+          "githubOrg": "serge-sans-paille",
+          "githubRepo": "pythran",
+          "githubUrl": "https://github.com/serge-sans-paille/pythran",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "spin",
+          "ecosystem": "PYPI",
+          "version": "0.13",
+          "githubOrg": "scientific-python",
+          "githubRepo": "spin",
+          "githubCommit": "4c08c7c2009ba5110b657d08729ec6074b7cdb79",
+          "githubTag": "v0.13",
+          "githubUrl": "https://github.com/scientific-python/spin",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "build",
+          "ecosystem": "PYPI",
+          "version": "1.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "build",
+          "githubCommit": "1e67c062e9d1b1a6d5ffed621f4b29902bb764e5",
+          "githubTag": "1.2.1",
+          "githubUrl": "https://github.com/pypa/build",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pooch",
+          "ecosystem": "PYPI",
+          "version": "1.6.0",
+          "githubOrg": "fatiando",
+          "githubRepo": "pooch",
+          "githubCommit": "6cf0208b4bd6e1135fc96749059b1f208f28dd0c",
+          "githubTag": "v1.6.0",
+          "githubUrl": "https://github.com/fatiando/pooch",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pre-commit",
+          "ecosystem": "PYPI",
+          "version": "4.7.0",
+          "githubOrg": "pre-commit",
+          "githubRepo": "pre-commit",
+          "githubCommit": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+          "githubTag": "v4.7.0",
+          "githubUrl": "https://github.com/pre-commit/pre-commit",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ipython",
+          "ecosystem": "PYPI",
+          "version": "9.18.1",
+          "githubOrg": "ipython",
+          "githubRepo": "ipython",
+          "githubCommit": "5aa346b9f25910cc4888f44ac58b7aaa4b59da9c",
+          "githubTag": "9.18.1",
+          "githubUrl": "https://github.com/ipython/ipython",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "docstub",
+          "ecosystem": "PYPI",
+          "version": "0.3.0.",
+          "githubOrg": "scientific-python",
+          "githubRepo": "docstub",
+          "githubUrl": "https://github.com/scientific-python/docstub",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "asv",
+          "ecosystem": "PYPI",
+          "version": "0.6.6",
+          "githubOrg": "airspeed-velocity",
+          "githubRepo": "asv",
+          "githubCommit": "da01e9e399f35334c72749e51a0f343be1fb832a",
+          "githubTag": "v0.6.6",
+          "githubUrl": "https://github.com/airspeed-velocity/asv",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "8.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx-gallery",
+          "ecosystem": "PYPI",
+          "version": "0.18",
+          "githubOrg": "sphinx-gallery",
+          "githubRepo": "sphinx-gallery",
+          "githubUrl": "https://github.com/sphinx-gallery/sphinx-gallery",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "numpydoc",
+          "ecosystem": "PYPI",
+          "version": "1.7",
+          "githubOrg": "numpy",
+          "githubRepo": "numpydoc",
+          "githubUrl": "https://github.com/numpy/numpydoc",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx-copybutton",
+          "ecosystem": "PYPI",
+          "version": "0.5.2",
+          "githubOrg": "executablebooks",
+          "githubRepo": "sphinx-copybutton",
+          "githubCommit": "4a8050dea36536b005d3e757b1ac09886174f634",
+          "githubTag": "v0.5.2",
+          "githubUrl": "https://github.com/executablebooks/sphinx-copybutton",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "matplotlib",
+          "ecosystem": "PYPI",
+          "version": "3.7",
+          "githubOrg": "matplotlib",
+          "githubRepo": "matplotlib",
+          "githubUrl": "https://github.com/matplotlib/matplotlib",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "dask",
+          "ecosystem": "PYPI",
+          "version": "2023.2.0",
+          "githubOrg": "dask",
+          "githubRepo": "dask",
+          "githubCommit": "6df830a155c241191d478809e2e2b469fa78d913",
+          "githubTag": "2023.2.0",
+          "githubUrl": "https://github.com/dask/dask",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pandas",
+          "ecosystem": "PYPI",
+          "version": "2.0",
+          "githubOrg": "pandas-dev",
+          "githubRepo": "pandas",
+          "githubUrl": "https://github.com/pandas-dev/pandas",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "seaborn",
+          "ecosystem": "PYPI",
+          "version": "0.11",
+          "githubOrg": "mwaskom",
+          "githubRepo": "seaborn",
+          "githubUrl": "https://github.com/mwaskom/seaborn",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "myst-parser",
+          "ecosystem": "PYPI",
+          "version": "5.2.0",
+          "githubOrg": "executablebooks",
+          "githubRepo": "MyST-Parser",
+          "githubCommit": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+          "githubTag": "v5.2.0",
+          "githubUrl": "https://github.com/executablebooks/MyST-Parser",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "intersphinx-registry",
+          "ecosystem": "PYPI",
+          "version": "0.2411.14",
+          "githubOrg": "Quansight-labs",
+          "githubRepo": "intersphinx_registry",
+          "githubUrl": "https://github.com/Quansight-labs/intersphinx_registry",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ipykernel",
+          "ecosystem": "PYPI",
+          "version": "7.4.0",
+          "githubOrg": "ipython",
+          "githubRepo": "ipykernel",
+          "githubCommit": "cfa461d8afac05cefc3671128d00adaa3c0720f4",
+          "githubTag": "v7.4.0",
+          "githubUrl": "https://github.com/ipython/ipykernel",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "plotly",
+          "ecosystem": "PYPI",
+          "version": "5.20",
+          "githubOrg": "plotly",
+          "githubRepo": "plotly.py",
+          "githubUrl": "https://github.com/plotly/plotly.py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "kaleido",
+          "ecosystem": "PYPI",
+          "version": "0.2.1",
+          "githubOrg": "plotly",
+          "githubRepo": "kaleido",
+          "githubCommit": "624c30ca29b3a120215264b3b2e9341bf1bb4247",
+          "githubTag": "v0.2.1",
+          "githubUrl": "https://github.com/plotly/kaleido",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "scikit-learn",
+          "ecosystem": "PYPI",
+          "version": "1.2",
+          "githubOrg": "scikit-learn",
+          "githubRepo": "scikit-learn",
+          "githubUrl": "https://github.com/scikit-learn/scikit-learn",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx-design",
+          "ecosystem": "PYPI",
+          "version": "0.5",
+          "githubOrg": "executablebooks",
+          "githubRepo": "sphinx-design",
+          "githubUrl": "https://github.com/executablebooks/sphinx-design",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydata-sphinx-theme",
+          "ecosystem": "PYPI",
+          "version": "0.16",
+          "githubOrg": "pydata",
+          "githubRepo": "pydata-sphinx-theme",
+          "githubUrl": "https://github.com/pydata/pydata-sphinx-theme",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pywavelets",
+          "ecosystem": "PYPI",
+          "version": "1.6",
+          "githubOrg": "PyWavelets",
+          "githubRepo": "pywt",
+          "githubUrl": "https://github.com/PyWavelets/pywt",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-doctestplus",
+          "ecosystem": "PYPI",
+          "version": "1.6.0",
+          "githubOrg": "scientific-python",
+          "githubRepo": "pytest-doctestplus",
+          "githubCommit": "720babcfb72d3aedcd62d8eda14ca75f95bef3fa",
+          "githubTag": "v1.6.0",
+          "githubUrl": "https://github.com/scientific-python/pytest-doctestplus",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "simpleitk",
+          "ecosystem": "PYPI",
+          "version": "2.5.8",
+          "githubOrg": "SimpleITK",
+          "githubRepo": "SimpleITK",
+          "githubCommit": "ff80980f841953582b1f6f2815a1879ddfa62783",
+          "githubTag": "v2.5.8",
+          "githubUrl": "https://github.com/SimpleITK/SimpleITK",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyamg",
+          "ecosystem": "PYPI",
+          "version": "5.2",
+          "githubOrg": "pyamg",
+          "githubRepo": "pyamg",
+          "githubUrl": "https://github.com/pyamg/pyamg",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "astropy",
+          "ecosystem": "PYPI",
+          "version": "6.0",
+          "githubOrg": "astropy",
+          "githubRepo": "astropy",
+          "githubUrl": "https://github.com/astropy/astropy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "8.3",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "2.11.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "b45388d0bf81465759412c6b977c6a1fc5201346",
+          "githubTag": "v2.11.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-pretty",
+          "ecosystem": "PYPI",
+          "version": "1.3.0",
+          "githubOrg": "samuelcolvin",
+          "githubRepo": "pytest-pretty",
+          "githubCommit": "6233b5ab95308a1dba68198492c2705efe387ede",
+          "githubTag": "v1.3.0",
+          "githubUrl": "https://github.com/samuelcolvin/pytest-pretty",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-localserver",
+          "ecosystem": "PYPI",
+          "version": "0.10.0.post0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-localserver",
+          "githubCommit": "1256e0d20b8644fb7639c9e15183e574618ccfd4",
+          "githubTag": "v0.10.0.post0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-localserver",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-faulthandler",
+          "ecosystem": "PYPI",
+          "version": "2.0.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-faulthandler",
+          "githubCommit": "27d9026dceb8bd2f89d68cdbd654f0f39aa23627",
+          "githubTag": "2.0.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest-faulthandler",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
