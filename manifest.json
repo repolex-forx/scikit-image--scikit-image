@@ -2204,7 +2204,9 @@
           "githubUrl": "https://github.com/pytest-dev/pytest-faulthandler",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8/chunk-001.nq.gz",
+      "dep": "dep/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
