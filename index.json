@@ -3,6 +3,11 @@
   "repo": "scikit-image",
   "versions": [
     {
+      "commit": "ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8",
+      "tag": "v0.26.0",
+      "parsed_at": "2026-11-22T05:41:14.073141+00:00"
+    },
+    {
       "commit": "b700edc8005e4ee9e74fc83259f09e8df3213f15",
       "tag": "",
       "parsed_at": "2026-10-16T23:55:47.849500+00:00"
