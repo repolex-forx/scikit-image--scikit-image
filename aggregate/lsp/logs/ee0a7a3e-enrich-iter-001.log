@@ -1,0 +1,97 @@
+[2026-11-22T03:33:31Z] === ENRICH ITERATION 1 START | repo=scikit-image/scikit-image sha=ee0a7a3e ===
+[2026-11-22T03:33:31Z] [iter=1] PHASE START: enrich repo=scikit-image/scikit-image sha=ee0a7a3e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ee0a7a3e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8.nq.gz
+[2026-11-22T03:34:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T03:34:54Z] [iter=1] AST store loaded triples=3680886 load_secs=32 mem_mb=954 MB
+[2026-11-22T03:34:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=954 MB
+[2026-11-22T03:34:59Z] [iter=1] LSP targets found call_sites=29854 imports=1625 extends=38 implements=0 secs=5
+[2026-11-22T03:35:02Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=954 MB
+[2026-11-22T03:35:28Z] [iter=1] Position index built positions=220123 nodes_with_types=287967 secs=26 mem_mb=954 MB
+[2026-11-22T03:35:28Z] [iter=1] Step 3: Starting LSP resolution mem_mb=954 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T03:35:28Z] [iter=1] Resolving target type target_type=call_site count=29854
+[2026-11-22T03:35:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=0 resolved=0 errors=0 current=tests/skimage/filters/test_edges.py
+[2026-11-22T03:36:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=2 resolved=200 errors=0 current=tests/skimage/draw/test_random_shapes.py
+[2026-11-22T03:36:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=5 resolved=417 errors=0 current=tests/skimage/morphology/test_skeletonize.py
+[2026-11-22T03:37:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=9 resolved=626 errors=0 current=tests/skimage/morphology/test_misc.py
+[2026-11-22T03:38:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=12 resolved=778 errors=0 current=doc/examples/registration/plot_opticalflow.py
+[2026-11-22T03:40:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=15 resolved=1253 errors=0 current=tests/skimage/io/test_mpl_imshow.py
+[2026-11-22T03:40:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=17 resolved=1318 errors=0 current=src/skimage/feature/texture.py
+[2026-11-22T03:41:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=19 resolved=1504 errors=0 current=tests/skimage/transform/test_hough_transform.py
+[2026-11-22T03:41:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=23 resolved=1806 errors=0 current=tests/skimage/exposure/test_exposure.py
+[2026-11-22T03:42:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=25 resolved=1983 errors=0 current=src/skimage/io/manage_plugins.py
+[2026-11-22T03:43:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=26 resolved=2047 errors=0 current=tests/skimage/measure/test_block.py
+[2026-11-22T03:45:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.1 files_done=29 resolved=2245 errors=0 current=doc/examples/developers/plot_threshold_li.py
+[2026-11-22T03:46:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=33 resolved=2370 errors=0 current=tests/skimage/graph/test_heap.py
+[2026-11-22T03:48:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=36 resolved=2514 errors=0 current=tests/skimage/measure/test_fit.py
+[2026-11-22T03:48:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.4 files_done=40 resolved=2688 errors=0 current=tests/skimage/feature/test_blob.py
+[2026-11-22T03:49:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.1 files_done=42 resolved=2899 errors=0 current=.spin/cmds.py
+[2026-11-22T03:50:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=50 resolved=3095 errors=0 current=tests/skimage/util/test_random_noise.py
+[2026-11-22T03:50:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.4 files_done=57 resolved=3431 errors=0 current=tests/skimage/measure/test_profile.py
+[2026-11-22T03:51:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.0 files_done=63 resolved=3551 errors=0 current=tests/skimage/util/test_shape.py
+[2026-11-22T03:52:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=66 resolved=3722 errors=0 current=benchmarks/benchmark_transform_warp.py
+[2026-11-22T03:53:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=70 resolved=3841 errors=0 current=src/skimage/util/shape.py
+[2026-11-22T03:54:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.0 files_done=73 resolved=3939 errors=0 current=doc/ext/skimage_extensions.py
+[2026-11-22T03:58:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=80 resolved=4643 errors=0 current=tests/conftest.py
+[2026-11-22T03:59:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.9 files_done=86 resolved=4813 errors=0 current=src/skimage/transform/_geometric.py
+[2026-11-22T04:01:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.8 files_done=87 resolved=5092 errors=0 current=doc/examples/filters/plot_denoise.py
+[2026-11-22T04:01:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.4 files_done=98 resolved=5206 errors=0 current=doc/examples/edges/plot_active_contours.py
+[2026-11-22T04:03:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=104 resolved=5405 errors=0 current=src/skimage/filters/rank/generic.py
+[2026-11-22T04:04:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.2 files_done=105 resolved=5505 errors=0 current=tests/skimage/segmentation/test_felzenszwalb.py
+[2026-11-22T04:05:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.9 files_done=107 resolved=5646 errors=0 current=tests/skimage/feature/test_template.py
+[2026-11-22T04:06:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.6 files_done=111 resolved=5793 errors=0 current=src/skimage/filters/ridges.py
+[2026-11-22T04:07:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.1 files_done=115 resolved=6001 errors=0 current=src/skimage/feature/_daisy.py
+[2026-11-22T04:08:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.6 files_done=119 resolved=6151 errors=0 current=doc/examples/filters/plot_j_invariant.py
+[2026-11-22T04:09:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.7 files_done=124 resolved=6417 errors=0 current=src/skimage/io/collection.py
+[2026-11-22T04:09:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.3 files_done=126 resolved=6516 errors=0 current=tests/skimage/feature/test_corner.py
+[2026-11-22T04:11:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.7 files_done=130 resolved=6816 errors=0 current=tests/skimage/io/test_pil.py
+[2026-11-22T04:11:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.3 files_done=135 resolved=6912 errors=0 current=tests/skimage/_shared/test_geometry.py
+[2026-11-22T04:12:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.3 files_done=143 resolved=7095 errors=0 current=doc/examples/filters/plot_entropy.py
+[2026-11-22T04:13:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.8 files_done=155 resolved=7419 errors=0 current=src/skimage/exposure/exposure.py
+[2026-11-22T04:14:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.8 files_done=156 resolved=7507 errors=0 current=doc/examples/filters/plot_denoise_wavelet.py
+[2026-11-22T04:14:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.5 files_done=169 resolved=7737 errors=0 current=tests/skimage/color/test_colorlabel.py
+[2026-11-22T04:15:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.1 files_done=178 resolved=7985 errors=0 current=src/skimage/transform/_thin_plate_splines.py
+[2026-11-22T04:16:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.7 files_done=181 resolved=8102 errors=0 current=tests/skimage/transform/test_pyramids.py
+[2026-11-22T04:16:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.4 files_done=194 resolved=8421 errors=0 current=tests/skimage/morphology/test_gray.py
+[2026-11-22T04:17:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.0 files_done=196 resolved=8511 errors=0 current=tests/skimage/measure/test_ccomp.py
+[2026-11-22T04:18:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.5 files_done=205 resolved=8629 errors=0 current=src/skimage/morphology/extrema.py
+[2026-11-22T04:18:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.4 files_done=207 resolved=8707 errors=0 current=doc/examples/filters/plot_phase_unwrap.py
+[2026-11-22T04:19:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.1 files_done=214 resolved=8811 errors=0 current=doc/examples/edges/plot_line_hough_transform.py
+[2026-11-22T04:20:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.7 files_done=216 resolved=8873 errors=0 current=tests/skimage/measure/test_pnpoly.py
+[2026-11-22T04:20:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.4 files_done=223 resolved=9000 errors=0 current=doc/examples/applications/plot_image_comparison.py
+[2026-11-22T04:21:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.9 files_done=232 resolved=9274 errors=0 current=src/skimage/segmentation/_join.py
+[2026-11-22T04:21:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.4 files_done=235 resolved=9366 errors=0 current=doc/examples/registration/plot_register_translation.py
+[2026-11-22T04:22:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.0 files_done=240 resolved=9544 errors=0 current=tests/skimage/feature/test_basic_features.py
+[2026-11-22T04:23:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=250 resolved=9682 errors=0 current=tests/skimage/morphology/test_isotropic.py
+[2026-11-22T04:23:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.2 files_done=252 resolved=9781 errors=0 current=doc/examples/filters/plot_butterworth.py
+[2026-11-22T04:24:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.7 files_done=254 resolved=9826 errors=0 current=src/skimage/draw/draw.py
+[2026-11-22T04:24:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.3 files_done=259 resolved=9951 errors=0 current=tests/skimage/metrics/test_simple_metrics.py
+[2026-11-22T04:25:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.8 files_done=267 resolved=10148 errors=0 current=doc/examples/segmentation/plot_regionprops_table.py
+[2026-11-22T04:26:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.6 files_done=271 resolved=10278 errors=0 current=src/skimage/io/_plugins/matplotlib_plugin.py
+[2026-11-22T04:26:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.1 files_done=277 resolved=10393 errors=0 current=src/skimage/filters/edges.py
+[2026-11-22T04:27:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.3 files_done=278 resolved=10464 errors=0 current=src/skimage/feature/peak.py
+[2026-11-22T04:28:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.0 files_done=284 resolved=10592 errors=0 current=src/skimage/restoration/_denoise.py
+[2026-11-22T04:29:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.7 files_done=285 resolved=10692 errors=0 current=doc/examples/color_exposure/plot_histogram_matching.py
+[2026-11-22T04:30:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.7 files_done=294 resolved=10844 errors=0 current=doc/examples/segmentation/plot_join_segmentations.py
+[2026-11-22T04:30:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.4 files_done=305 resolved=11015 errors=0 current=src/skimage/filters/thresholding.py
+[2026-11-22T04:31:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.1 files_done=306 resolved=11153 errors=0 current=src/skimage/_shared/compat.py
+[2026-11-22T04:32:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.9 files_done=311 resolved=11250 errors=0 current=doc/examples/features_detection/plot_sift.py
+[2026-11-22T04:33:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.1 files_done=315 resolved=11326 errors=0 current=doc/examples/transform/plot_transform_types.py
+[2026-11-22T04:34:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.6 files_done=322 resolved=11439 errors=0 current=src/skimage/filters/_fft_based.py
+[2026-11-22T04:34:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.2 files_done=333 resolved=11623 errors=0 current=doc/examples/color_exposure/plot_equalize.py
+[2026-11-22T04:35:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.7 files_done=338 resolved=11691 errors=0 current=tests/skimage/filters/test_gabor.py
+[2026-11-22T04:35:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.2 files_done=342 resolved=11820 errors=0 current=tools/check_sdist.py
+[2026-11-22T04:36:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=63.0 files_done=356 resolved=11984 errors=0 current=src/skimage/_shared/tester.py
+[2026-11-22T04:37:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=63.6 files_done=367 resolved=12085 errors=0 current=src/skimage/graph/_graph_cut.py
+[2026-11-22T04:37:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.1 files_done=373 resolved=12146 errors=0 current=tests/skimage/graph/test_pixel_graph.py
+[2026-11-22T04:38:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.7 files_done=376 resolved=12226 errors=0 current=src/skimage/io/util.py
+[2026-11-22T04:39:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.6 files_done=388 resolved=12395 errors=0 current=tests/skimage/io/test_tifffile.py
+[2026-11-22T04:39:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.2 files_done=396 resolved=12517 errors=0 current=src/skimage/registration/_optical_flow_utils.py
+[2026-11-22T04:40:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.8 files_done=400 resolved=12562 errors=0 current=doc/examples/transform/plot_radon_transform.py
+[2026-11-22T04:40:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.4 files_done=416 resolved=12711 errors=0 current=doc/examples/data/plot_general.py
+[2026-11-22T04:41:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.2 files_done=436 resolved=12849 errors=0 current=src/skimage/metrics/_adapted_rand_error.py
+[2026-11-22T04:42:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.7 files_done=453 resolved=12945 errors=0 current=doc/examples/segmentation/plot_boundary_merge.py
+[2026-11-22T04:42:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.3 files_done=469 resolved=13016 errors=0 current=src/skimage/segmentation/_felzenszwalb.py
+[2026-11-22T04:43:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.8 files_done=477 resolved=13093 errors=0 current=src/skimage/transform/__init__.py
+[2026-11-22T04:43:34Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=70.0 files_completed=500 new_files_this_iter=500 mem_mb=954 MB
+[2026-11-22T04:43:34Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ee0a7a3ebd9ac8c2602f40e55bc015a3c8a81ae8.nq.gz triples=133516
+[2026-11-22T04:43:35Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-22T04:43:35Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=4202 elapsed_min=70.0 files_completed=500
